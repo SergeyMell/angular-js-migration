@@ -4,6 +4,8 @@ import { UpgradeModule } from '@angular/upgrade/static';
 
 import { AppRoutingModule } from './app-routing.module';
 import {LoggerModule} from '../_deprecated/src/client/app/blocks/logger/logger.module';
+import {WidgetsModule} from '../_deprecated/src/client/app/widgets/widgets.module';
+import {HtWidgetHeaderComponent} from '../_deprecated/src/client/app/widgets/ht-widget-header.directive';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,8 @@ import {LoggerModule} from '../_deprecated/src/client/app/blocks/logger/logger.m
     AppRoutingModule,
     UpgradeModule,
 
-    LoggerModule
+    LoggerModule,
+    WidgetsModule
   ],
   providers: []
 })
