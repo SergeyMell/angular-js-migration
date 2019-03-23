@@ -3,16 +3,17 @@ import { NgModule } from '@angular/core';
 import { UpgradeModule } from '@angular/upgrade/static';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import {LoggerModule} from '../_deprecated/src/client/app/blocks/logger/logger.module';
 
 @NgModule({
   declarations: [
-    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    UpgradeModule
+    UpgradeModule,
+
+    LoggerModule
   ],
   providers: []
 })
