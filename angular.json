@@ -20,12 +20,56 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/_deprecated"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/_deprecated/bower_components/bootstrap/dist/css/bootstrap.css",
+              "src/_deprecated/bower_components/font-awesome/css/font-awesome.css",
+              "src/_deprecated/bower_components/toastr/toastr.css",
+              "src/_deprecated/.tmp/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/_deprecated/bower_components/jquery/dist/jquery.js",
+              "src/_deprecated/bower_components/angular/angular.js",
+              "src/_deprecated/bower_components/angular-animate/angular-animate.js",
+              "src/_deprecated/bower_components/angular-sanitize/angular-sanitize.js",
+              "src/_deprecated/bower_components/bootstrap/dist/js/bootstrap.js",
+              "src/_deprecated/bower_components/extras.angular.plus/ngplus-overlay.js",
+              "src/_deprecated/bower_components/moment/moment.js",
+              "src/_deprecated/bower_components/angular-ui-router/release/angular-ui-router.js",
+              "src/_deprecated/bower_components/toastr/toastr.js",
+              "src/_deprecated/bower_components/angular-bootstrap/ui-bootstrap-tpls.js",
+
+              "src/_deprecated/src/client/app/app.module.js",
+              "src/_deprecated/src/client/app/admin/admin.module.js",
+              "src/_deprecated/src/client/app/blocks/exception/exception.module.js",
+              "src/_deprecated/src/client/app/blocks/logger/logger.module.js",
+              "src/_deprecated/src/client/app/blocks/router/router.module.js",
+              "src/_deprecated/src/client/app/core/core.module.js",
+              "src/_deprecated/src/client/app/dashboard/dashboard.module.js",
+              "src/_deprecated/src/client/app/layout/layout.module.js",
+              "src/_deprecated/src/client/app/widgets/widgets.module.js",
+              "src/_deprecated/src/client/app/admin/admin.controller.js",
+              "src/_deprecated/src/client/app/admin/admin.route.js",
+              "src/_deprecated/src/client/app/blocks/exception/exception-handler.provider.js",
+              "src/_deprecated/src/client/app/blocks/exception/exception.js",
+              "src/_deprecated/src/client/app/blocks/logger/logger.js",
+              "src/_deprecated/src/client/app/blocks/router/router-helper.provider.js",
+              "src/_deprecated/src/client/app/core/config.js",
+              "src/_deprecated/src/client/app/core/constants.js",
+              "src/_deprecated/src/client/app/core/core.route.js",
+              "src/_deprecated/src/client/app/core/dataservice.js",
+              "src/_deprecated/src/client/app/dashboard/dashboard.controller.js",
+              "src/_deprecated/src/client/app/dashboard/dashboard.route.js",
+              "src/_deprecated/src/client/app/layout/ht-sidebar.directive.js",
+              "src/_deprecated/src/client/app/layout/ht-top-nav.directive.js",
+              "src/_deprecated/src/client/app/layout/shell.controller.js",
+              "src/_deprecated/src/client/app/layout/sidebar.controller.js",
+              "src/_deprecated/src/client/app/widgets/ht-img-person.directive.js",
+              "src/_deprecated/src/client/app/widgets/ht-widget-header.directive.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -84,7 +128,8 @@
             "scripts": [],
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/_deprecated"
             ]
           }
         },
