@@ -1,6 +1,8 @@
 import {downgradeInjectable} from '@angular/upgrade/static';
 import {LoggerService} from './_deprecated/src/client/app/blocks/logger/logger';
 
+require('@uirouter/angular-hybrid');
+
 declare const require: any;
 declare const angular: any;
 

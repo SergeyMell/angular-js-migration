@@ -3,7 +3,7 @@ import {Component, ElementRef, Input} from '@angular/core';
 declare const $: any;
 
 @Component({
-  selector: 'app-ht-widget-header-1',
+  selector: 'app-ht-widget-header',
   templateUrl: './widget-header.html',
   styleUrls: []
 })
